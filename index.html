@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TJKT 2 STI SMKM1SBY</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,14 +12,11 @@
     
 </head>
 <body>
-    
-    
-    <section class="header">
+    <section class="main">
         <nav>
-            <a href="index.html"><img src="https://i.postimg.cc/fRqSt8zJ/cropped-logo-png.png"></a>
-            <div class="nav-links" id="navLinks">
+            <a href="index.html"><img src="https://i.postimg.cc/fRqSt8zJ/cropped-logo-png.png" style="border-radius:10% ;"></a>
+            <div class="nav-link" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
-
                 <ul>
                     <li><a href="">BERANDA</a></li>
                     <li><a href="">TENTANG</a></li>
@@ -30,7 +26,6 @@
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
-
         </nav>
 
         <div class="text-box">
@@ -180,9 +175,12 @@
     </div>
     
     <div class="icons">
-        <h4><i>---BY Hanif :) -_- -</i></h4>
+        <h4><i>--- BY Hanif :) x <a href="https://lynk.id/codenamezaxx">Zaxx</a> ---</i></h4>
         <h5><i>ASSALAMUALAIKUM :)</i></h5>
         <h6><strong><i>----ADIOS</i></strong></h6>
+        
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-github"></i>
         
     </div>
 
@@ -195,20 +193,21 @@
 
 
  
-<!----- JavaScript for Toggle Menu ------>
 
-<script>
 
-  var navLinks = document.getElementById("navLinks");
-  function showMenu(){
-    navLinks.style.right = "0";
-  }
+  <!------JavaScript for Toggle Menu------->
+    <script>
 
-  function hideMenu(){
-    navLinks.style.right = "-200px";
-  }
-
-</script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   
+ 
+    </script>
  
 
 </body>
